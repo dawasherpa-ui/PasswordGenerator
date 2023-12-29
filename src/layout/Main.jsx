@@ -51,7 +51,7 @@ function Main() {
 
   const handleFetch = async () => {
     try {
-      const response = await fetch('http://localhost:3000/',{
+      const response = await fetch('https://backendpasswordgen-production.up.railway.app/',{
         method:'POST',
         headers:{
           'content-type':'application/json'
