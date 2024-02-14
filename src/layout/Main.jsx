@@ -51,7 +51,7 @@ function Main() {
 
   const handleFetch = async () => {
     try {
-      const response = await fetch('https://backendpasswordgen-production.up.railway.app/',{
+      const response = await fetch('https://password-gen-srx2.onrender.com',{
         method:'POST',
         headers:{
           'content-type':'application/json'
